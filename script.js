@@ -58,7 +58,7 @@ function updateFaceCSS() {
 function transitionToState(stateType, hideButton = null) {
     const targetState = config.states[stateType]
     Object.assign(state.current, targetState.face)
-    btnHappy.innerHTML = targetState.ui.btnUnhappyText
+    btnHappy.innerHTML = targetState.ui.btnHappyText
     btnUnhappy.innerHTML = targetState.ui.btnUnhappyText
     title.innerHTML = targetState.ui.titleText
     subtitle.innerHTML = targetState.ui.subtitleText
