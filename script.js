@@ -26,8 +26,8 @@ const config = {
             ui: {
                 btnHappyText: '返回',
                 btnUnhappyText: '返回',
-                titleText: '已取消',
-                subtitleText: '感谢您继续使用本插件'
+                titleText: '来了就多聊会吧',
+                subtitleText: '等你很久啦'
             }
         },
         unhappy: {
@@ -35,8 +35,8 @@ const config = {
             ui: {
                 btnHappyText: '返回',
                 btnUnhappyText: '返回',
-                titleText: '已删除',
-                subtitleText: '感谢您使用本插件'
+                titleText: '不要什么不要，斗地主也不许不要',
+                subtitleText: '管上好嘛'
             }
         }
     }
