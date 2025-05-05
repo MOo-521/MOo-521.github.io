@@ -7,7 +7,7 @@ const subtitle = document.querySelector('.subtitle')
 
 const config = {
     // 这里修改卸载点击的最大次数,如果为0或1就是不会乱跑
-    maxUnhappyCount: 2,
+    maxUnhappyCount: 4,
     // 这里修改动画速度
     animationSpeed: 0.1,
     // 这里修改文字，正常状态下在html里面修改
